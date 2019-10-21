@@ -1,3 +1,4 @@
+require 'pry'
 
 def turtles
     [
@@ -8,10 +9,53 @@ def turtles
     ]
 end
 
+
+
 def turtle_traits(turtles)
-  turtles.map do |turtle|
-    turtle[:traits].each do |trait|
-      trait
-    end
-  end
+  new_arr = []
+  turtles[0][:traits]
+  
+  turtles[1][:traits]
+  
+  turtles[2][:traits]
+  
+  turtles[3][:traits]
+  
+  new_arr.push(turtles[0][:traits],
+  
+  [turtles[1][:traits]],
+  
+  turtles[2][:traits],
+  
+  turtles[3][:traits])
+  
 end
+
+
+# def turtle_traits(turtles)
+#   turtles.map do |turtle|
+#     turtle[:traits].map do |trait|
+#       trait
+#       binding.pry
+#     end
+#   end
+# end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
