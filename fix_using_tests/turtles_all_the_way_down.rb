@@ -47,6 +47,7 @@ def turtle_traits(turtles)
   arr=[]
   turtles.each do |turtle|
     turtle.each do |character|
+      
       if character == :traits
       binding.pry
       arr << [:traits]
