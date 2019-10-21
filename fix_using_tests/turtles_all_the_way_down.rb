@@ -52,6 +52,7 @@ def turtle_traits(turtles)
       arr << [:traits]
       binding.pry
     end
+    end
     arr
   end
 end
