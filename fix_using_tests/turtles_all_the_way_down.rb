@@ -46,7 +46,7 @@ def turtle_traits(turtles)
   counter = 0
   arr=[]
   turtles.each do |turtle|
-    turtle.each do {|character|if character == :traits}
+    turtle.each do {|character|arr << [:traits] if character == :traits}
       binding.pry
       arr << [:traits]
       
