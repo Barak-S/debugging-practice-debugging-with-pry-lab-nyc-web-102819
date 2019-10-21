@@ -46,7 +46,7 @@ def turtle_traits(turtles)
   counter = 0
   arr=[]
   turtles.each do |turtle|
-    turtle.each do {|character|puts character[:traits]}
+    turtle.each do {|character|puts character:traits}
       binding.pry
 
       
