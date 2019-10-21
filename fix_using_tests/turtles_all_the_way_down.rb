@@ -44,11 +44,13 @@ end
 
 def turtle_traits(turtles)
   counter = 0
+  arr=[]
   turtles.each do |turtle|
     turtle[:traits].map do |trait|
-      trait
+      arr << trait
       binding.pry
     end
+    arr
   end
 end
 
