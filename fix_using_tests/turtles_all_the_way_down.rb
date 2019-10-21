@@ -43,6 +43,7 @@ end
 
 
 def turtle_traits(turtles)
+  counter = 0
   turtles.each do |turtle|
     turtle[:traits].map do |trait|
       trait
