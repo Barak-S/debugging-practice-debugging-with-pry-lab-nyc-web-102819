@@ -49,7 +49,7 @@ def turtle_traits(turtles)
     turtle.each do |character|
       if character == :traits
       
-      arr << trait
+      arr << [:traits]
       binding.pry
     end
     arr
