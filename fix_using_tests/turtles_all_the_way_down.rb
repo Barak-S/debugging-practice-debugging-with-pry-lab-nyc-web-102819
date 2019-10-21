@@ -46,7 +46,9 @@ def turtle_traits(turtles)
   counter = 0
   arr=[]
   turtles.each do |turtle|
-    turtle[:traits].map do |trait|
+    turtle.each do |character|
+      if character == :traits
+      
       arr << trait
       binding.pry
     end
